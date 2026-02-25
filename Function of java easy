@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        String display = name1("Goutam");
+        System.out.print(display);
+    }
+
+    static String name1(String name){
+        String msg = "Bye " + name;
+        return msg;
+    }
+} 
